@@ -14,7 +14,7 @@ const WheelPicker: React.FC<Props> = props => {
   const { data, onItemSelected, disabled } = props;
   if (!data || data.length === 0) return null;
   return (
-    <View pointerEvents={disabled ? "none" : "auto"}>
+    <View pointerEvents={disabled ? "none" : "auto"} style={{ width: "100%" }}>
       <Picker
         {...props}
         selectedValue={data[selectedItem]}
