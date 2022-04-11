@@ -14,7 +14,7 @@ You can clone the repo and run example from ./example folder
 
 ## Installation
 
-`yarn add react-native-wheel-picker-android`
+`yarn add react-native-wheel-picker-android@git+https://github.com/mohamadnavabi/ReactNativeWheelPicker.git`
 
 ![](./src/assets/pickerAndroid.gif)
 ![](./src/assets/pickerIos.gif)
